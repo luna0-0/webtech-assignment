@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  height: 10vh;
+  width: 100%;
+  background-color: goldenrod;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header #logo {
+  height: 70px;
+  width: 80px;
+}
+#header #navbar ul li {
+  display: inline-block;
+}
+#header #navbar ul li {
+  list-style: none;
+}
+#header a {
+  text-decoration: none;
+  padding: 20px;
+  margin: 0px 15px;
+  color: black;
+}
+#navbar a:hover,
+#header #reg:hover {
+  background-color: white;
+  color: rgb(82, 62, 12);
+}
+#header #reg {
+  background-color: rgb(227, 221, 188);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#content {
+  height: 85vh;
+}
+#content #left-sidebar {
+  width: 20%;
+  height: 85vh;
+  background-color: rgb(240, 234, 204);
+  float: left;
+}
+#content #left-sidebar ul li a {
+  text-decoration: none;
+  color: black;
+}
+#content #left-sidebar ul li {
+  padding: 10px;
+  margin-top: 10px;
+}
+#content #left-sidebar ul li:hover {
+  border: 2px solid rgb(196, 187, 144);
+  background-color: rgb(238, 229, 186);
+  cursor: pointer;
+}
+#content #main-content {
+  width: 60%;
+  height: 85vh;
+  background-color: rgb(218, 204, 240);
+  float: left;
+}
+#content #main-content p,
+#content #main-content h1 {
+  padding: 15px;
+}
+
+#content #right-sidebar {
+  width: 20%;
+  height: 85vh;
+  background-color: rgb(204, 240, 206);
+  float: right;
+}
+#content #right-sidebar #searchbar {
+  margin: 20px;
+}
+#content #right-sidebar #searchbar input {
+  width: 60%;
+  padding: 5px;
+}
+#content #right-sidebar #searchbar label {
+  background-color: rgb(24, 77, 250);
+  padding: 5px;
+  border: 1px solid white;
+  color: white;
+  margin-left: 3px;
+  border-radius: 7px;
+}
+#content #right-sidebar #more-blogs {
+  margin: 10px;
+}
+#content #right-sidebar #more-blogs ul li {
+  list-style: none;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+#footer {
+  background-color: rgb(155, 180, 246);
+  height: 5vh;
+  width: 100%;
+}
+#footer p {
+  text-align: center;
+  padding: 10px;
+}
